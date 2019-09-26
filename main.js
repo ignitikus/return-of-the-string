@@ -23,9 +23,7 @@ function twoCharacters(str5,char1,char2) {
 }
 
 function initials(str6) {
-  let char1 = str6[0];
-  let char2 = str6[str6.indexOf(' ') + 1];
-  return char1 + '.' + char2 + '.';
+  return str6[0] + '.' + str6[str6.indexOf(' ') + 1] + '.';
 }
 
 function yeller(str7) {
